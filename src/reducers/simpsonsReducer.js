@@ -1,4 +1,4 @@
-import { FETCH_QUOTE, FETCH_QUOTE_LOADING } from '../';
+import { FETCH_QUOTE, FETCH_QUOTE_LOADING } from '../actions/simpsonsActions';
 
 const initialState = {
   quoteDetails: {},

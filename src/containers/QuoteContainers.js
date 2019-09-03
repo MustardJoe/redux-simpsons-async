@@ -1,5 +1,5 @@
-import { connect } from 'react-redux';
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Quote from '../components/quote/Quote';
 import { getQuoteLoading, getName, getImgUrl, getQuote } from '../selectors/quoteSelectors';
@@ -21,8 +21,7 @@ class SimpsonsQuote extends Component{
   }
 
   render() {
-    const { quote, character, image, loading, fetch } = this.props;
-    if(loading) return <h1>We are loading</h1>;
+    const { quote, character, image } = this.props;
     return (
       <section>
         <Load handleClick={fetch} /> 
