@@ -1,0 +1,13 @@
+.section {
+  text-align: center;
+  width: 40vw;
+  height: 50vh;
+}
+
+.section h2 {
+  font-size: 24px;
+}
+
+.section img {
+  width: 15vh;
+}
